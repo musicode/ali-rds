@@ -1,6 +1,6 @@
 {
-  "name": "ali-rds",
-  "version": "3.0.1",
+  "name": "my-rds",
+  "version": "1.0.0",
   "description": "Aliyun RDS client",
   "main": "lib/client.js",
   "files": [
@@ -26,15 +26,15 @@
     "mocha": "*",
     "thunk-mocha": "*"
   },
-  "homepage": "https://github.com/ali-sdk/ali-rds",
+  "homepage": "https://github.com/musicode/ali-rds",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ali-sdk/ali-rds.git",
-    "web": "https://github.com/ali-sdk/ali-rds"
+    "url": "git://github.com/musicode/ali-rds.git",
+    "web": "https://github.com/musicode/ali-rds"
   },
   "bugs": {
-    "url": "https://github.com/ali-sdk/ali-rds/issues",
-    "email": "m@fengmk2.com"
+    "url": "https://github.com/musicode/ali-rds/issues",
+    "email": "musicode@qq.com"
   },
   "keywords": [
     "ali-rds"
