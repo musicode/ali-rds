@@ -25,6 +25,27 @@ Aliyun RDS client. Sub module of [ali-sdk](https://github.com/ali-sdk/ali-sdk).
 RDS, Relational Database Service. Equal to well know Amazon [RDS](http://aws.amazon.com/rds/).
 Support `MySQL`, `SQL Server` and `PostgreSQL`.
 
+## Fork 改动
+
+支持操作符
+
+```js
+where: {
+  key1: value1,                // 即 key1=value1
+  key2: [ 1, 2 ],              // 即 key2 IN (1, 2)
+  key3: {                      // 即 key3>10
+    operator: '>',
+    value: 10
+  },
+  key4: {                      // 即 key4>10 AND key4<100
+    operators: [ '>', '<' ],
+    values: [ 10, 100 ]
+  }
+}
+```
+
+
+
 ## MySQL Usage
 
 ### Create RDS instance
