@@ -1,6 +1,6 @@
 {
   "name": "my-rds",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Aliyun RDS client",
   "main": "lib/client.js",
   "files": [
